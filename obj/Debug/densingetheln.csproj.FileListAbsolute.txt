@@ -1,0 +1,15 @@
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\densingetheln.exe.config
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\densingetheln.exe
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\densingetheln.pdb
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\EntityFramework.dll
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\EntityFramework.xml
+C:\Users\FOR CLONE\source\repos\densingetheln\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.AssemblyReference.cache
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.Form1.resources
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.Properties.Resources.resources
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.GenerateResource.cache
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.CoreCompileInputs.cache
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.CopyComplete
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.exe
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.pdb
