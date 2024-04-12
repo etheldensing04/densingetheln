@@ -13,3 +13,4 @@ C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.Cor
 C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.csproj.CopyComplete
 C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.exe
 C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.pdb
+C:\Users\FOR CLONE\source\repos\densingetheln\obj\Debug\densingetheln.CategoryAdd.resources

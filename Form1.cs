@@ -13,7 +13,7 @@ namespace densingetheln
 {
     public partial class Form1 : Form
     {
-        DensingdbEntities _context = new DensingdbEntities();
+        private readonly DensingdbEntities _context = new DensingdbEntities();
         public Form1()
         {
             InitializeComponent();
@@ -56,6 +56,14 @@ namespace densingetheln
                               .FirstOrDefault();
             _context.Categories.Remove(itemToDelete);
             _context.SaveChanges();
+
+            categoryBindingSource.DataSource = _context.Categories.ToList();
+        }
+
+        private void testAdd_Click(object sender, EventArgs e)
+        {
+            CategoryAdd NewAdd = new CategoryAdd();
+            NewAdd.ShowDialog();
 
             categoryBindingSource.DataSource = _context.Categories.ToList();
         }
