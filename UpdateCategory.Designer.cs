@@ -1,7 +1,7 @@
 ﻿
 namespace densingetheln
 {
-    partial class CategoryAdd
+    partial class UpdateCategory
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,37 @@ namespace densingetheln
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(30, 76);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(30, 32);
+            this.textBox1.Location = new System.Drawing.Point(28, 30);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(291, 20);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.Size = new System.Drawing.Size(276, 20);
+            this.textBox1.TabIndex = 0;
             // 
-            // CategoryAdd
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(104, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Update";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // UpdateCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 134);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(335, 128);
             this.Controls.Add(this.button1);
-            this.Name = "CategoryAdd";
-            this.Text = "CategoryAdd";
+            this.Controls.Add(this.textBox1);
+            this.Name = "UpdateCategory";
+            this.Text = "UpdateCategory";
+            this.Load += new System.EventHandler(this.UpdateCategory_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,7 +67,7 @@ namespace densingetheln
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
